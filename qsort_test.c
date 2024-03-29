@@ -4,11 +4,11 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 int com(const void *a,const void*b)
 {
-	return (*(int*)a-*(int *)b);
+	return (*(int*)a-*(int *)b);//按升序排列
 }
 int uncom(const void *a,const void*b)
 {
-	return (*(int*)b-*(int *)a);
+	return (*(int*)b-*(int *)a);//按降序排列
 }
 
 
