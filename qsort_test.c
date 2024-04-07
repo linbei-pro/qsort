@@ -16,7 +16,7 @@ int main(int argc, char *argv[]) {
 	int i=0,j=0;
 	int arr[10]={34,76,17,1,25,38,77,56,52,99};
 	int length=sizeof(arr)/sizeof(arr[0]);
-	for( i=0;i<size;i++)
+	for( i=0;i<length;i++)
 	{
 		printf("%d ",arr[i]);
 	}
