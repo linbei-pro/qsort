@@ -15,13 +15,13 @@ int uncom(const void *a,const void*b)
 int main(int argc, char *argv[]) {
 	int i=0,j=0;
 	int arr[10]={34,76,17,1,25,38,77,56,52,99};
-	int size=sizeof(arr)/sizeof(arr[0]);
+	int length=sizeof(arr)/sizeof(arr[0]);
 	for( i=0;i<size;i++)
 	{
 		printf("%d ",arr[i]);
 	}
 	printf("\n");
-	qsort(arr,size,sizeof(int),com);
+	qsort(arr,length,sizeof(int),com);
 	for( j=0;j<size;j++)
 	{
 		printf("%d ",arr[j]);
